@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "546793747606",
+    "project_id": "auc-parking-app",
+    "storage_bucket": "auc-parking-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546793747606:android:3b312294e6dd9893ab7eb7",
+        "android_client_info": {
+          "package_name": "com.example.parkingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "546793747606-bnmt7ru03r0ih6n0of4crqtjesfqnlae.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.parkingapp",
+            "certificate_hash": "6ef6421d2f2b483128b6db7dc6e299b62777c48f"
+          }
+        },
+        {
+          "client_id": "546793747606-eqb2urf6h5u2dq18c9e4rilhprnu85oq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEwU2-uR0wrEz9mEZeRFyOaYISUtgUXy8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "546793747606-eqb2urf6h5u2dq18c9e4rilhprnu85oq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
