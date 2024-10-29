@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Fixed Image of Parking Lot at the Top -->
+    <ImageView
+        android:id="@+id/parkingImageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/parking" />
+
+    <!-- Scrollable Content Below the Image -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <!-- Layout for Available Spots -->
+            <LinearLayout
+                android:id="@+id/availableSpotsLayout"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp">
+
+                <!-- Available header TextView -->
+                <TextView
+                    android:id="@+id/availableHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Available Spots"
+                    android:textSize="18sp"
+                    android:padding="8dp" />
+
+                <!-- Spot buttons will be added here dynamically -->
+
+            </LinearLayout>
+
+            <!-- Layout for Unavailable Spots -->
+            <LinearLayout
+                android:id="@+id/unavailableSpotsLayout"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp">
+
+                <!-- Unavailable header TextView -->
+                <TextView
+                    android:id="@+id/unavailableHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Unavailable Spots"
+                    android:textSize="18sp"
+                    android:padding="8dp" />
+
+                <!-- Spot texts with expected times will be added here dynamically -->
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
