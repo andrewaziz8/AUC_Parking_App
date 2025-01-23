@@ -1,5 +1,7 @@
 # AUC_Parking_App
 
+## **Overview**  
+
 This project is an advanced Parking Management System designed to improve the parking experience by leveraging modern technologies and AI-based predictions. The application offers real-time parking spot availability, notifications, and predictive analytics to enhance user convenience and optimize space utilization.  
 It used Java and Android Studio, integrating the Gemini API for AI-based parking availability predictions. The application featured a real-time map interface for displaying parking spot statuses, Firebase for backend data management and synchronization, and a client-server architecture with Python and Flask to handle AI computations. Implemented a notification system that operates even when the app is closed, alerting users when a parking spot becomes available and providing the spot ID upon pressing the "Notify Me" button, which appears only when no spots are available. Utilized Google Gemini AI for predictive analytics, significantly enhancing user experience by reducing parking search times and optimizing space utilization.
 
