@@ -25,7 +25,12 @@ It used Java and Android Studio, integrating the Gemini API for AI-based parking
 - **Firestore Database**: To store and manage parking availability records.  
 
 ### **Notification System**  
-- **Firebase Cloud Messaging (FCM)**: Enables push notifications to alert users when parking spots become available.  
+The Parking Management System includes a robust notification feature that ensures users are informed about parking spot availability in **real time**, even when the app is **not actively** in use.
+- **Firebase Firestore**: For monitoring real-time updates in the parking spot data (**isAvailable** field).
+- **Android Foreground Service**: Ensures persistent monitoring of parking spot availability even when the app is closed or running in the background.
+- **Notification Manager**: Sends push notifications to alert users when a parking spot becomes available.
+- **NotificationChannel**: Implements high-priority notifications for Android devices.
+- **BroadcastReceiver**: Handles notification dismissal when triggered by the user.
 
 ### **Testing Frameworks**  
 - **JUnit 5**: Used for unit and integration testing in Java.  
