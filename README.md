@@ -9,7 +9,8 @@ It used Java and Android Studio, integrating the Gemini API for AI-based parking
 
 ## **Demo Video**
 
-[Click here to watch the video](Parking_App1.mp4)
+[Click here to watch demo video 1]([Parking_App1.mp4](https://drive.google.com/file/d/1KbH_AuDMhOOmpLhC6yeP3ys8EpaRCLZz/view?usp=drive_link))
+[Click here to watch demo video 2]([Parking_App2.mp4](https://drive.google.com/file/d/1BaVKj57J36B_XBdK4sGoHrie-4xG1Tzv/view?usp=drive_link))
 
 --
 
